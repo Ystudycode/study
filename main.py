@@ -192,10 +192,9 @@ def send_message():
         return("发送失败")
 
 
-## 云函数规定 入口必须传两个参数
-def main(event, context): ##云函数入口
-    print(json_data)
+def main(): ##云函数入口
+#     print(json_data)
     return send_message()
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
