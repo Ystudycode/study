@@ -192,9 +192,10 @@ def send_message():
         return("发送失败")
 
 
-def main(): ##云函数入口
-#     print(json_data)
-    return send_message()
+# def main(): ##云函数入口
+# #     print(json_data)
+#     return send_message()
 
 if __name__ == '__main__':
-    main()
+#     main()
+    return send_message()
